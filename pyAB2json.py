@@ -23,7 +23,6 @@ with PLC(IP) as comm:
             
             for t in tags.Value:
                 tagread = comm.Read(t.TagName)
-                tagstr = '{}: {} , {} \n'.format(tagread.TagName,tagread.Value,t.DataType)
                 tagdict[IP].append({tagread.TagName: {'Value': tagread.Value,'Data Type':t.DataType,'Status':tagread.Status}})
                 
                 print('Writing: {} \n'.format(tagdict))
