@@ -15,5 +15,5 @@ printout of filename and location is found at end of script printout
 
 open command prompt and run pyJSONViewer
 
-open file in pyJSONViewer
+open file in pyJSONViewer or your preffered web browser or GUI
 
