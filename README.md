@@ -1,9 +1,8 @@
 # pyAB2json
-Script for using pylogix to save all controller and program tags into a .json format with file based version control (ipadress_date.json) and view Allen Bradley compactlogix,controllogix, and micro800(controller tags only) in a GUI interface.
+Script for using pylogix to save all controller and program tags of Allen Bradley compactlogix,controllogix, and micro800(controller tags only) PLC's into a .json format with file based version control (ipadress_date.json).
 
 download python3.1
 pip install pylogix https://github.com/dmroeder/pylogix
-pip install pyJSONViewer https://pypi.org/project/PyJSONViewer/
 
 Run pyAB2json.py 
 
@@ -15,5 +14,4 @@ printout of filename and location is found at end of script printout
 
 open command prompt and run pyJSONViewer
 
-open file in pyJSONViewer or your preffered web browser or GUI
-
+open file in your preffered web browser or program.
