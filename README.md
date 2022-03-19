@@ -8,7 +8,6 @@ Script for using pylogix to save all controller and program tags of Allen Bradle
 
  
 
-Run pyAB2json.py 
 
 ## Table of contents
 * [General info](#general-info)
